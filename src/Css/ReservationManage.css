@@ -1,0 +1,21 @@
+.reservation-manage {
+    padding: 20px;
+  }
+  
+  .reservation-manage h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .table .btn-danger {
+    margin: 0;
+  }
+  

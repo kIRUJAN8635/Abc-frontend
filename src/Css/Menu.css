@@ -1,0 +1,115 @@
+.menu-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+    width: 1250px;
+  }
+  
+  .menu-cart-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  /* Container for the cart summary */
+.cart-summary {
+    width: 350px; /* Fixed width for the cart summary */
+    border: 1px solid #ddd; /* Light gray border for the container */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky; /* Keeps the cart summary fixed in place on scroll */
+    top: 20px; /* Spacing from the top */
+  }
+  
+  /* Title of the cart summary */
+  .cart-summary h2 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #333; /* Dark gray color for the title */
+  }
+  
+  /* Each item in the cart */
+  .cart-item {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between item name and price */
+    padding: 10px 0; /* Vertical padding */
+    border-bottom: 1px solid #eee; /* Light gray border between items */
+  }
+  
+  .cart-item p {
+    margin: 0; /* Remove default margins */
+    font-size: 1rem; /* Font size for item text */
+    color: #555; /* Medium gray color for text */
+  }
+  
+  /* Subtotal section */
+  .cart-subtotal {
+    margin-top: 20px; /* Space above the subtotal */
+    font-size: 1.2rem; /* Slightly larger font size for subtotal */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Dark gray color for subtotal text */
+  }
+  
+  /* Styling for empty cart message */
+  .cart-summary p {
+    text-align: center; /* Center text */
+    color: #888; /* Lighter gray color for empty message */
+    font-style: italic; /* Italicize the text */
+  }
+  
+  
+  .add-to-cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-summary {
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  .cart-subtotal {
+    margin-top: 20px;
+  }
+  

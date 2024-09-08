@@ -1,0 +1,18 @@
+.review-table {
+    margin-top: 20px;
+  }
+  
+  .review-table th, 
+  .review-table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .review-table .filled {
+    color: gold;
+  }
+  
+  .review-table .empty {
+    color: lightgray;
+  }
+  

@@ -1,0 +1,64 @@
+.gallery-manage-content {
+    padding: 20px;
+  }
+  
+  .gallery-manage-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .gallery-form-container {
+    width: 45%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-form input,
+  .gallery-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .gallery-form textarea {
+    height: 100px;
+  }
+  
+  .gallery-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gallery-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .gallery-table-container {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .gallery-table {
+    width: 100%;
+  }
+  
+  .gallery-table img.gallery-image {
+    width: 100px;
+    height: auto;
+  }
+  
